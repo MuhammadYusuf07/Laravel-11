@@ -1,7 +1,7 @@
 # Belajar Laravel 10 
 ## Muhammad Yusuf
 
-### Video 4 Blade Templating Engine
+### **Video 4 Blade Templating Engine**
 1. **Pengantar Blade Templating**: Video ini fokus pada mesin templating Blade di Laravel 11, menjelaskan cara menggunakan Blade untuk mengelola dan mempercantik struktur halaman.
 
 2. **Membuat dan Mengelola View**: Pembawa acara menunjukkan cara membuat view baru seperti "blog" dan "contact" serta mengintegrasikannya dengan rute, menekankan pentingnya mempercantik halaman polos yang dibuat di episode sebelumnya.
