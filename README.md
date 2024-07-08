@@ -1,4 +1,4 @@
-# Belajar Laravel 10 
+# Belajar Laravel 11 
 ## Muhammad Yusuf
 
 ## **Video 4 Blade Templating Engine**
@@ -11,5 +11,12 @@
 4. **Implementasi Alpine.js**: Untuk navigasi yang dinamis, Alpine.js digunakan. Video ini menunjukkan langkah-langkah instalasi dan konfigurasi Alpine.js agar navigasi pada halaman berjalan dengan baik.
 
 5. **Mengedit dan Menyempurnakan Halaman**: Video ini juga membahas bagaimana mengedit konten dan tampilan halaman menggunakan Tailwind UI, serta memastikan semua elemen navigasi dan konten di setiap halaman tampil konsisten dan menarik.
+
+## Technologies Yang digunakan
+
+- [Laravel](https://laravel.com/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [TailwindUI](https://tailwindui.com/)
+- [AlpineJS](https://alpinejs.dev/)
 
 
