@@ -19,4 +19,16 @@
 - [TailwindUI](https://tailwindui.com/)
 - [AlpineJS](https://alpinejs.dev/)
 
+## Video 5 Blade Component
+1. **Pengenalan Blade Components di Laravel**: Tutorial dimulai dengan pengenalan Blade, templating engine milik Laravel, yang mempermudah pengelolaan tampilan dan mengurangi duplikasi kode.
+
+2. **Membuat Blade Components**: Video ini menunjukkan cara membuat komponen yang dapat digunakan kembali menggunakan perintah Artisan Laravel. Ini mencakup dua metode: dengan dan tanpa membuat kelas.
+
+3. **Implementasi Layouts**: Instruktor memperlihatkan cara membuat layout component untuk struktur website, menggunakan slots untuk menyisipkan konten secara dinamis ke dalam layout.
+
+4. **Contoh Praktis**: Tutorial ini mencakup contoh praktis di mana navigasi bar (navbar) diubah menjadi Blade component. Contoh ini menekankan pada peningkatan pemeliharaan kode.
+
+5. **Menggunakan Blade Directives dan Layout Inheritance**: Tutorial juga membahas penggunaan Blade directives dan pewarisan template (layout inheritance) untuk membuat tampilan yang lebih dinamis dan terstruktur.
+
+
 
