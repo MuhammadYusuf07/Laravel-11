@@ -30,5 +30,8 @@
 
 5. **Menggunakan Blade Directives dan Layout Inheritance**: Tutorial juga membahas penggunaan Blade directives dan pewarisan template (layout inheritance) untuk membuat tampilan yang lebih dinamis dan terstruktur.
 
-
+**Untuk membuat component ada view dan ada class**
+```
+php artisan make:component Navbar
+```
 
