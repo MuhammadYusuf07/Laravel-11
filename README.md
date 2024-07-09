@@ -32,12 +32,47 @@
 
 **Untuk membuat component ada view dan ada class**
 ```
- Navbar
+php artisan make:component Navbar
 ```
 **Mengambil Navbar dari component navbar**
-```<x-navbar></x-navbar>```
-**Membuat component Header Tanpa View karena Header sangat simple**
-``` php artisan make:component Header --view```
+```
+<x-navbar></x-navbar>
+```
+
+**Membuat componen t Header tanpa view karena Header sangat simple**
+```
+php artisan make:component Header --view
+```
+**Variabel ```{{ $slot }}``` Untuk mengambil nilai dari component misalnya dari component header**
+
+**Mengirimkan data  ```title``` ke home**
+```
+Route::get('/', function () {
+    return view('home' , ['title'=> 'Home Page']);
+});
+```
+**untuk mengecek dihome gunakan ini atau dd untuk menampilkan variable dan matikan scriptnya untuk melakukan Debug**
+```
+{{ dd($title) }}
+```
+**di home**
+```
+<x-slot:title>{{ $title }}</x-slot:title>
+```
+**dilayout**
+```
+<x-header>{{ $title }}</x-header>
+```
+
+**Untuk membuat agar ketika di klik home yang aktif home maka membuat request ketika di berada di ```/``` maka aktifkan , dan ketika tidak ``` : `` maka lakukan**
+```
+{{ request()->is('/') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }}
+```
+**ketika di blog buat ```/blog``` dan yang lainnya juga disesuaikan**
+
+
+
+
 
 
 
