@@ -32,6 +32,12 @@
 
 **Untuk membuat component ada view dan ada class**
 ```
-php artisan make:component Navbar
+ Navbar
 ```
+**Mengambil Navbar dari component navbar**
+```<x-navbar></x-navbar>```
+**Membuat component Header Tanpa View karena Header sangat simple**
+``` php artisan make:component Header --view```
+
+
 
