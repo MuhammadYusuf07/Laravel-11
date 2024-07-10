@@ -31,15 +31,18 @@
 5. **Menggunakan Blade Directives dan Layout Inheritance**: Tutorial juga membahas penggunaan Blade directives dan pewarisan template (layout inheritance) untuk membuat tampilan yang lebih dinamis dan terstruktur.
 
 **Untuk membuat component ada view dan ada class**
+
 ```
 php artisan make:component Navbar
 ```
 **Mengambil Navbar dari component navbar**
+
 ```
 <x-navbar></x-navbar>
 ```
 
 **Membuat componen t Header tanpa view karena Header sangat simple**
+
 ```
 php artisan make:component Header --view
 ```
@@ -64,11 +67,14 @@ Route::get('/', function () {
 <x-header>{{ $title }}</x-header>
 ```
 
-**Untuk membuat agar ketika di klik home yang aktif home maka membuat request ketika di berada di ```/``` maka aktifkan , dan ketika tidak ``` : `` maka lakukan**
+**Untuk membuat agar ketika di klik home yang aktif home maka membuat request ketika di berada di ```/``` maka aktifkan , dan ketika tidak ``` : ``` maka lakukan**
+
 ```
 {{ request()->is('/') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }}
 ```
 **ketika di blog buat ```/blog``` dan yang lainnya juga disesuaikan**
+
+
 
 
 
